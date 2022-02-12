@@ -99,6 +99,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.border {
+  border: 1px solid #ececec;
+}
 .contact {
   font-family: var(--primary-font-family);
   font-style: normal;

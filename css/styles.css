@@ -94,6 +94,11 @@ body {
 .site-nav a:focus {
   color: var(--focus-color);
 }
+.link-pr {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .contact {
   font-family: var(--primary-font-family);
   font-style: normal;

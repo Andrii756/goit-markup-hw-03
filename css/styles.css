@@ -36,6 +36,7 @@ img {
 }
 section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list {
   color: var(--color-text);
@@ -169,6 +170,9 @@ body {
   border-radius: 4px;
 }
 /*peculiarities*/
+.feature {
+  padding-bottom: 0px;
+}
 .peculiarities {
   display: flex;
   flex-wrap: wrap;
@@ -205,7 +209,6 @@ body {
 }
 .bacground-section {
   background: #f5f4fa;
-  padding-bottom: 94px;
 }
 .headlines {
   font-family: var(--primary-font-family);
@@ -322,9 +325,6 @@ body {
 }
 /*projects*/
 .project {
-  padding-bottom: 94px;
-}
-.project-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -374,12 +374,11 @@ body {
 /*footer*/
 footer {
   background-color: var(--second-background);
-}
-.footer-size {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.address {
+
+.addres {
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
